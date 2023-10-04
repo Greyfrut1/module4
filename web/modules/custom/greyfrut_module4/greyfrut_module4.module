@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_theme() to provide a theme for ReviewsListBuilder.
+ */
+function greyfrut_module4_theme($existing, $type, $theme, $path) {
+  return [
+    'form_table' => [
+      'variables' => [
+        'form' => [],       // Variable for the rows of the reviews list.// Variable for additional attributes of the reviews list.
+      ],
+    ],
+  ];
+}

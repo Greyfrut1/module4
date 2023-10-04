@@ -1,0 +1,10 @@
+name: 'Greyfrut theme'
+type: theme
+description: 'Module 4 custom theme'
+core_version_requirement: ^10
+base theme: adminimal_theme
+package: Custom
+
+libraries:
+  - greyfrut_theme/greyfrut_theme
+  - greyfrut_theme/greyfrut_theme_css

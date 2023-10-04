@@ -1,0 +1,22 @@
+uuid: d3de9689-12d9-4ba1-97e7-ecff6538a687
+langcode: en
+status: true
+dependencies:
+  theme:
+    - greyfrut_theme
+_core:
+  default_config_hash: CyX_aDKAka2_eihevNLscCHDYrzDgIqwWzFVEFRKIww
+id: greyfrut_theme_primary_local_tasks
+theme: greyfrut_theme
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

@@ -1,0 +1,16 @@
+greyfrut_module4.tables:
+  path: '/tables'
+  defaults:
+    _form: '\Drupal\greyfrut_module4\Form\TableForm'
+    _title: 'Tables'
+  requirements:
+    _permission: 'administer site configuration'
+
+greyfrut_module4.tables_list:
+  path: '/tables_list'
+  defaults:
+    _controller: '\Drupal\greyfrut_module4\Controller\TablesList::buildTables'
+    _title: 'Tables'
+  requirements:
+    _permission: 'administer site configuration'
+
